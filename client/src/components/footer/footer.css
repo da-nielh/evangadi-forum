@@ -1,0 +1,45 @@
+.footer__container {
+    background-color: #3b455a;
+}
+
+.footer__container-internal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.social__media {
+    width: 65%;
+}
+
+.social__media .link {
+    color: #fff;
+}
+
+.social__media .link:hover {
+    color: #ff8500;
+}
+
+.link__container h2 {
+    color: #fff;
+}
+
+.link__container a {
+    text-decoration: none;
+    color: #bebebe;
+}
+
+.link__container a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 720px) {
+    .footer__container-internal {
+        width: 100%;
+        display: flex;
+        gap: 15%;
+    }
+    .social__media {
+        width: 100%;
+    }
+}

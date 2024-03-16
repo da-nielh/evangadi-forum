@@ -1,0 +1,85 @@
+.signin__container {
+    background-image: url('../../assets/images/10003.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5f5f5;
+}
+
+.signin__container .internal__container {
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin__container .card__container {
+    background-color: #fafafa;
+}
+
+.signin__container .card__container a {
+    color: #ff8500;
+}
+
+.signin__container .card__container .form__container {
+    padding: 100px 0;
+}
+
+.signup__container .card__container .form__container {
+    padding: 2px 0;
+}
+
+.signin__container .internal__container .form .link {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.signin__container .internal__container .form input:focus {
+    background-color: red;
+}
+
+.signin__container .internal__container .form button {
+    padding: 1.5% 15%;
+    background-color: #ff8500;
+    border: none;
+}
+
+.signin__container .internal__container .form .signup__button {
+    background-color: #0d6efd;
+    padding: 15px 39%;
+}
+
+.signin__container .internal__container .form .Name__link {
+    width: 49%;
+}
+
+.signin__container .internal__container .form button:hover {
+    background-color: #fd992e;
+}
+
+@media screen and (min-width: 1140px) {
+    .signin__container .card__container {
+        margin-left: 2%;
+        width: 100%;
+    }
+    .signin__container .internal__container .form .signup__button {
+        padding: 15px 41%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .signin__container .internal__container {
+        width: 100rem !important;
+    }
+    .signin__container .card__container {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 960px) and (max-width: 1139px) {
+    .signin__container .card__container {
+        margin-left: 0%;
+    }
+}
